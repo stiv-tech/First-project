@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    font-family: DM sans, sans-serif;
+    box-sizing: border-box;
+}
+
+.btn, .primary-btn {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    background: #25DAC5;
+    border-radius: 15px;
+    font-family: DM Sans;
+    color: #fff;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: DM Sans sans-serif;
+}
+
+.head-item{
+    color: #1E0E62;
+}
+
+.container{
+    font-family: DM Sans sans-serif;
+}
+
+.primary-btn {
+    background: #25DAC5;
+    border-radius: 100px;
+    font-size: 20px;   
+    padding: 17px 180px;
+    
+}
+@media screen and (max-width: 650px){
+   .primary-btn{
+    padding-left: 17px;
+   }
+   .myform {
+    width: 100%;
+   }
+   .primary-btn {
+    width: 100%;
+   }
+   .head-item{
+    font-size: 30px;
+   }
+}
+
+.head-p {
+    font-family: DM Sans sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    vertical-align: top;
+    fill: solid;
+    color: rgba(149, 149, 151, 0.4);    
+}
+.head-img {
+    width: 100%;
+}
+.head-body1 {
+    font-style: medium;
+    font-size: 15px;
+    text-align: left;
+    color: rgba(149, 149, 151, 0.4);
+    }
+
+.primary-btn:hover {
+    background-color: rgb(173, 173, 194);
+    }
+
+.shift {
+    margin: 5% auto;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+video{
+    width: 100%;
+}
+.myform,  .primary-btn {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+    padding: 11px 14px;
+    width: 80%;
+    border-radius: 57px !important;
+    box-sizing: border-box;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+
+.form-section{
+    margin-top: 77px;
+}
