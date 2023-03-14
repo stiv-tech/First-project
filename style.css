@@ -8,8 +8,24 @@
     color: #1E0E62;
 }
 @media screen and (max-width: 650px){
-    .head-item{
-        line-break: strict;
+    .linebreak{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+   .container{
+    max-width: 600px;
+   }
+   .linebreak{
+    display: none;
+}
+}
+@media screen and (min-width: 1023px) and (max-width: 1400px){
+    .container{
+        max-width: 800px;
+       }
+       .linebreak{
+        display: none;
     }
 }
 
