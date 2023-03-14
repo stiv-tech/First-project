@@ -19,6 +19,18 @@
    .linebreak{
     display: none;
 }
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+ .width{
+    width: 130%;
+    margin-top: 20%;
+ }
+ 
 }
 @media screen and (min-width: 1023px) and (max-width: 1400px){
     .container{
@@ -103,10 +115,3 @@ video{
     border-radius: 57px !important;
     box-sizing: border-box;
 }
-/* .form-group{
-    margin-bottom: 30px;
-}
-
-.form-section{
-    margin-top: 77px;
-} */
